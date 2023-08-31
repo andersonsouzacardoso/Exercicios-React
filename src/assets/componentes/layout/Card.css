@@ -1,0 +1,33 @@
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    max-width: 550px;
+    min-width: 550px;
+    background-color: rgb(41, 216, 41);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    flex-direction: column;
+    border: 3px solid white;
+}
+.card .titulo{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    font-size: 20pt;
+    
+}
+.card .conteudo{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+}
+.caixa2{
+    background-color: rgb(31, 30, 30);
+}
